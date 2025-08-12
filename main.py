@@ -39,6 +39,8 @@ elif(Day_num == Days.DAY4):
     print("day4 print")
     Day4.Day4_learning()
 
+print(" end of program")
+
 
 
    
