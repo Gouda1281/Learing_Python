@@ -3,7 +3,8 @@ import Day2
 import Day3
 import Day4
 import Day5
-
+import Day6
+import Day7
 
 import enum
 
@@ -49,6 +50,10 @@ elif(Day_num == Days.DAY5):
 elif(Day_num == Days.DAY6):
     print("day4 print")
     Day4.Day6_learning()
+
+elif(Day_num == Days.DAY7):
+    print("day4 print")
+    Day4.Day7_learning()
 
 print(" end of program")
 
