@@ -2,6 +2,7 @@ import Day1
 import Day2
 import Day3
 import Day4
+import Day5
 
 
 import enum
@@ -11,9 +12,11 @@ class Days(enum.Enum):
     DAY2 = 2
     DAY3 = 3
     DAY4 = 4
+    DAY5 = 5
+    DAY6 = 6
 
 print("Python learning for 100 days")
-print("Enter the day number to see the learning:")
+print("Enter the day number to see the   learning:")
 Day_num_input = input()  #"Day (1-4): "
 
 # Convert input to int safely
@@ -38,6 +41,14 @@ elif(Day_num == Days.DAY3):
 elif(Day_num == Days.DAY4):
     print("day4 print")
     Day4.Day4_learning()
+
+elif(Day_num == Days.DAY5):
+    print("day4 print")
+    Day4.Day5_learning()
+
+elif(Day_num == Days.DAY6):
+    print("day4 print")
+    Day4.Day6_learning()
 
 print(" end of program")
 
